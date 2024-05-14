@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+
+.logo-container {
+    font-family: "Cairo";
+    text-align: center;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    letter-spacing: 1px;
+    line-height: 2;
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+}
+
+.logo-text {
+    background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+    background-size: cover;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin: 0 4rem;
+}
